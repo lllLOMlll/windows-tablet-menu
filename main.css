@@ -1,0 +1,338 @@
+
+.flex-div {
+	display: flex; /* tells the browser to treat the element as a flexible container, allowing you to control the layout and positioning of its contents */
+	justify-content: center; /*Place all the content in the center of my screen*/
+}
+/* Background image */
+body {
+  background-image: url(images/bubbles.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.9); /* Adjust the last value (0.5) to change the transparency */
+	pointer-events: none; /* Make sure the overlay doesn't block interactions with elements below it */
+}
+.bottom-left-text {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	color: white;
+	font-family: Verdana;
+}
+.bottom-center-text {
+	position: absolute;
+	bottom: 10px;
+	left: 21px;
+	color: white;
+	font-family: Verdana;
+}
+.bottom-right-text {
+	position: absolute;
+	bottom: 10px;
+	left: 130px;
+	color: white;
+	font-family: Verdana;
+}
+.bottom-right-text-box21 {
+	position: absolute;
+	bottom: 10px;
+	left: 255px;
+	color: white;
+	font-family: Verdana;
+}
+.weather-celsius-text {
+	position: absolute;
+	top: 15px;
+	left: 110px;
+	color: white;
+	font-family: Verdana;
+	font-size: 40px;
+}
+.weather-city-text {
+	position: absolute;
+	top: 60px;
+	left: 115px;
+	color: white;
+	font-family: Verdana;
+	font-size: 20px;
+}
+.weather-date-text {
+	position: absolute;
+	top: 95px;
+	left: 115px;
+	color: white;
+	font-family: Verdana;
+	font-size: 13px;
+}
+
+/* ROW 1*/
+/* Column 1*/
+/*wi-fi*/
+.r1-c1-box22 {
+	width: 330px;
+	height: 330px;
+	background-color: #ccc;
+	background-image: url(images/signal.png);
+	background-size: 200px; /* size of the picture*/
+	background-position: center;
+	background-repeat: no-repeat;
+	margin : 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.r1-c1-box22:hover {
+	background-color: #000000; /* Change this to the desired hover color */
+}
+
+/* Column 2*/
+/* Amazon */
+.r1-c2-box12 {
+	width: 160px;
+	height: 330px;
+	background-color: #ffd11a;
+	background-image: url(images/amazon.png);
+	background-size: 100px; /* size of the picture*/
+	background-position: center;
+	background-repeat: no-repeat;
+	margin : 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.r1-c2-box12:hover {
+	background-color: #000000; /* Change this to the desired hover color */
+}
+
+
+/* Column 3*/
+/* Maps */
+.r1-c3-box11 {
+	width: 160px;
+	height: 160px;
+	background-color: #9933ff;
+	background-image: url(images/maps.png);
+	background-size: 100px; /* size of the picture*/
+	background-position: center;
+	background-repeat: no-repeat;
+	margin : 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.r1-c3-box11:hover {
+	background-color: #000000; /* Change this to the desired hover color */
+}
+
+/* Internet Explorer */
+.r1-c4-box11 {
+	width: 160px;
+	height: 160px;
+	background-color: #ff3399;
+	background-image: url(images/internet_explorer.png);
+	background-size: 100px; /* size of the picture*/
+	background-position: center;
+	background-repeat: no-repeat;
+	margin : 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.r1-c4-box11:hover {
+	background-color: #000000; /* Change this to the desired hover color */
+}
+
+/* Weather */
+.r1-c3-1-box21 {
+	width: 330px;
+	height: 160px;
+	background-color: #3399ff;
+	background-image: url(images/sunny.png);
+	background-size: 90px; /* size of the picture*/
+	background-position-x: 12px;
+	background-position-y: 12px;	
+	background-repeat: no-repeat;
+	margin : 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.r1-c3-1-box21:hover {
+	background-color: #000000; /* Change this to the desired hover color */
+}
+
+
+/* ROW 2*/
+/* Column 1*/
+/* Libraries */
+.r2-c1-box11 {
+	width: 160px;
+	height: 160px;
+	background-color: #ff6600;
+	background-image: url(images/libraries.png);
+	background-size: 100px; /* size of the picture*/
+	background-position: center;
+	background-repeat: no-repeat;
+	margin : 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.r2-c1-box11:hover {
+	background-color: #000000; /* Change this to the desired hover color */
+}
+
+/* Column 2*/
+/* Calender */
+.r2-c2-box21 {
+	width: 330px;
+	height: 160px;
+	background-color: #00cc00;
+	background-image: url(images/calendar.png);
+	background-size: 100px; /* size of the picture*/
+	background-position: center;
+	background-repeat: no-repeat;
+	margin : 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.r2-c2-box21:hover {
+	background-color: #000000; /* Change this to the desired hover color */
+}
+
+/* Column 3*/
+/* Desktop */
+.r2-c3-box21 {
+	width: 330px;
+	height: 160px;
+	background-color: #009999;
+	background-image: url(images/desktop.jpg);
+	background-size: 315px; /* size of the picture*/
+	background-position: center;
+	background-repeat: no-repeat;
+	margin : 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.r2-c3-box21:hover {
+	background-color: #000000; /* Change this to the desired hover color */
+}
+
+
+/* ROW 2*/
+/* Column 1*/
+/* Internet Explorer */
+.r3-c1-box11 {
+	width: 160px;
+	height: 160px;
+	background-color: #ff3399;
+	background-image: url(images/internet_explorer.png);
+	background-size: 100px; /* size of the picture*/
+	background-position: center;
+	background-repeat: no-repeat;
+	margin : 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.r3-c1-box11:hover {
+	background-color: #000000; /* Change this to the desired hover color */
+}
+/* Column 2*/
+/* Internet Explorer */
+.r3-c2-box11 {
+	width: 160px;
+	height: 160px;
+	background-color: #3399ff;
+	background-image: url(images/internet_explorer.png);
+	background-size: 100px; /* size of the picture*/
+	background-position: center;
+	background-repeat: no-repeat;
+	margin : 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.r3-c2-box11:hover {
+	background-color: #000000; /* Change this to the desired hover color */
+}
+/* Column 3*/
+/* Internet Explorer */
+.r3-c3-box11 {
+	width: 160px;
+	height: 160px;
+	background-color: #1a1a1a;
+	background-image: url(images/internet_explorer.png);
+	background-size: 100px; /* size of the picture*/
+	background-position: center;
+	background-repeat: no-repeat;
+	margin : 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.r3-c3-box11:hover {
+	background-color: #000000; /* Change this to the desired hover color */
+}
+/* Column 4*/
+/* Internet Explorer */
+.r3-c4-box11 {
+	width: 160px;
+	height: 160px;
+	background-color: #ffd11a;
+	background-image: url(images/internet_explorer.png);
+	background-size: 100px; /* size of the picture*/
+	background-position: center;
+	background-repeat: no-repeat;
+	margin : 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.r3-c4-box11:hover {
+	background-color: #000000; /* Change this to the desired hover color */
+}
+/* Column 5*/
+/* Internet Explorer */
+.r3-c5-box11 {
+	width: 160px;
+	height: 160px;
+	background-color: #ff6600;
+	background-image: url(images/internet_explorer.png);
+	background-size: 100px; /* size of the picture*/
+	background-position: center;
+	background-repeat: no-repeat;
+	margin : 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.r3-c5-box11:hover {
+	background-color: #000000; /* Change this to the desired hover color */
+}
+
+
